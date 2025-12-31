@@ -1050,7 +1050,7 @@ async function sendTelegramMessage(message) {
     }
 
     const botToken = '7520476821:AAEjzldN9I0ACrdCIkexT2O7D5TstFjgWQw';
-    const chatId = '-4819113028';
+    const chatId = '-5103461350';
     const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${message}&parse_mode=Markdown`;
 
     try {
@@ -1618,4 +1618,5 @@ window.addEventListener('load', () => {
     generateReport();
     initializeBillingDate();
 });
+
 
